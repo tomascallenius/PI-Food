@@ -1,0 +1,16 @@
+.divCards{
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10% 10% 10% 8%;
+    padding: 2em;
+    border-radius: 2em;
+    border-top: 10px solid #d6d300;
+    border-right: 10px solid #d6d300;
+    border-bottom: 10px solid #d6d300;
+    border-left: 18px dashed #542c0d;
+    
+}
+

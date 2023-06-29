@@ -1,0 +1,49 @@
+.capaFondo{
+    background-color: rgba(0, 0, 0, 20%);
+    /* text-align: center; */
+    min-height: 100vh;
+    height: 100%;
+
+}
+.text{
+    display: inline;
+    color: rgb(108, 68, 23);
+    background-color: rgba(214, 168, 109, 0.349);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.containerLeft{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    
+  
+}
+.containerRight{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+
+}
+
+.button{
+    padding: auto;
+    margin: 0%;
+    font-size: 20px;
+    color: black;
+    border: solid black 2px;
+    border-radius: 0%;
+    /* box-shadow: rgb(0, 0, 0); */
+    background-color: rgb(238, 238, 238);
+}
+
+.imgWelcome{
+    max-width: 70%;
+}
